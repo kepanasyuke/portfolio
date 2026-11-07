@@ -204,7 +204,7 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
     <div class="stat"><b>19</b><span>репозиториев на GitHub</span></div>
     <div class="stat"><b>≈90 000</b><span>строк авторского кода</span></div>
     <div class="stat"><b>25</b><span>языков программирования</span></div>
-    <div class="stat"><b>7</b><span>сайтов на GitHub Pages</span></div>
+    <div class="stat"><b>8</b><span>сайтов на GitHub Pages</span></div>
   </div>
 
   <section id="projects">
@@ -248,10 +248,10 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
 
       <article class="card" data-cat="backend">
         <div class="top"><h3>robot-dispatch</h3><span class="lang">Python</span></div>
-        <div class="shots"><img src="assets/media/robot-dispatch/dispatch-flow.gif" class="wide" loading="lazy" decoding="async" alt=""><img src="assets/media/robot-dispatch/gameplay.gif" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/robot-dispatch/architecture.svg" class="half auto" loading="lazy" decoding="async" alt=""></div>
-        <p>Диспетчеризация задач парка ROS2-роботов, устойчивая к сбоям: замолчавший робот освобождает задачу по истечении аренды и она уходит другому. Пять сервисов, транзакционный outbox вместо двойной записи, 16 тестовых модулей.</p>
-        <div class="tag">FastAPI · RabbitMQ · PostgreSQL · transactional outbox · lease-recovery</div>
-        <div class="links"><a href="https://github.com/kepanasyuke/robot-dispatch" target="_blank" rel="noopener">Код</a><a href="https://kepanasyuke.github.io/robot-dispatch/" target="_blank" rel="noopener">Сайт</a></div>
+        <div class="shots"><img src="assets/media/robot-dispatch/dispatch-flow.gif" class="wide" loading="lazy" decoding="async" alt=""><img src="assets/media/robot-dispatch/console-dashboard.png" class="wide" loading="lazy" decoding="async" alt=""><img src="assets/media/robot-dispatch/console-tasks.png" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/robot-dispatch/console-task.png" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/robot-dispatch/gameplay.gif" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/robot-dispatch/architecture.svg" class="half auto" loading="lazy" decoding="async" alt=""></div>
+        <p>Диспетчеризация задач парка ROS2-роботов, устойчивая к сбоям: замолчавший робот освобождает задачу по истечении аренды и она уходит другому. Пять сервисов и транзакционный outbox вместо двойной записи. Плюс веб-консоль флота: вход по ролям, фильтры и история задач, пагинация и сортировка. 321 python-тест, 344 теста консоли, 40 E2E.</p>
+        <div class="tag">FastAPI · RabbitMQ · PostgreSQL · transactional outbox · React + Vite · E2E</div>
+        <div class="links"><a href="https://github.com/kepanasyuke/robot-dispatch" target="_blank" rel="noopener">Код</a><a href="https://kepanasyuke.github.io/robot-dispatch/dispatch/" target="_blank" rel="noopener">Демо</a><a href="https://kepanasyuke.github.io/robot-dispatch/" target="_blank" rel="noopener">Покрытие</a></div>
       </article>
 
       <article class="card" data-cat="backend other">
@@ -264,7 +264,8 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
 
       <article class="card" data-cat="data">
         <div class="top"><h3>data-reliability-dq</h3><span class="lang">Python</span></div>
-        <p>Контур надёжности данных для аналитического хранилища: ночная загрузка проверяется на полноту, дубли и опоздания до того, как цифры попадут в отчёты. Инциденты и метрики — наружу.</p>
+        <div class="shots"><img src="assets/media/data-reliability-dq/gp-run.gif" class="wide" loading="lazy" decoding="async" alt=""><img src="assets/media/data-reliability-dq/gp-checks.png" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/data-reliability-dq/gp-daily-rows.png" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/data-reliability-dq/gp-skew.png" class="half auto" loading="lazy" decoding="async" alt=""></div>
+        <p>Контур надёжности данных для аналитического хранилища: 12 проверок на полноту, дубли, свежесть и сходимость остатков срабатывают до того, как цифры попадут в отчёты. Упавшая проверка открывает инцидент и закрывает его сама после перезаливки. DDL и проверки прогнаны на живом кластере Greenplum 6.8, 930 тестов.</p>
         <div class="tag">Greenplum · Python-раннер · Prometheus · Airflow · инциденты</div>
         <div class="links"><a href="https://github.com/kepanasyuke/data-reliability-dq" target="_blank" rel="noopener">Код</a></div>
       </article>
@@ -274,15 +275,15 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
         <div class="shots"><img src="assets/media/de-portfolio/anim-hero.svg" class="wide auto" loading="lazy" decoding="async" alt=""><img src="assets/media/de-portfolio/anim-streaming.svg" class="half auto" loading="lazy" decoding="async" alt=""><img src="assets/media/de-portfolio/anim-dq.svg" class="half auto" loading="lazy" decoding="async" alt=""></div>
         <p>Шесть проектов на одном стеке: batch-DWH, потоковая обработка, движок качества данных, витрины ClickHouse, миграция хранилища с проверкой эквивалентности и игра-пайплайн. 17 тестовых модулей.</p>
         <div class="tag">Airflow · Spark · Kafka · ClickHouse · DQ-гейт</div>
-        <div class="links"><a href="https://github.com/kepanasyuke/de-portfolio" target="_blank" rel="noopener">Код</a></div>
+        <div class="links"><a href="https://github.com/kepanasyuke/de-portfolio" target="_blank" rel="noopener">Код</a><a href="https://kepanasyuke.github.io/de-portfolio/" target="_blank" rel="noopener">Сайт</a></div>
       </article>
 
       <article class="card" data-cat="data">
         <div class="top"><h3>sql</h3><span class="lang">Python</span></div>
-        <div class="shots"><img src="assets/media/sql/hero.png" class="wide" loading="lazy" decoding="async" alt=""><img src="assets/media/sql/projects.png" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/sql/mech.png" class="half" loading="lazy" decoding="async" alt=""></div>
-        <p>Десять pet-проектов вокруг SQL: lineage, сверка данных, ETL, JSON API, алертинг по логам, профилирование, DAG-планировщик, потоковые окна, миграции и бенчмарк запросов.</p>
-        <div class="tag">SQL · Python · ETL · миграции · бенчмарк</div>
-        <div class="links"><a href="https://github.com/kepanasyuke/sql" target="_blank" rel="noopener">Код</a><a href="https://kepanasyuke.github.io/sql/" target="_blank" rel="noopener">Сайт</a></div>
+        <div class="shots"><img src="assets/media/sql/hero.png" class="wide" loading="lazy" decoding="async" alt=""><img src="assets/media/sql/app-ui.png" class="wide" loading="lazy" decoding="async" alt=""><img src="assets/media/sql/projects.png" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/sql/mech.png" class="half" loading="lazy" decoding="async" alt=""></div>
+        <p>Десять pet-проектов вокруг SQL: lineage, сверка данных, ETL, JSON API, алертинг по логам, профилирование, DAG-планировщик, потоковые окна, миграции и бенчмарк запросов. Плюс приложение sql-lint: правила оформления кода, песочница запросов и 548 собственных тестов с отчётом покрытия.</p>
+        <div class="tag">SQL · Python · ETL · миграции · бенчмарк · линтер правил</div>
+        <div class="links"><a href="https://github.com/kepanasyuke/sql" target="_blank" rel="noopener">Код</a><a href="https://kepanasyuke.github.io/sql/" target="_blank" rel="noopener">Сайт</a><a href="https://kepanasyuke.github.io/sql/coverage/" target="_blank" rel="noopener">Покрытие</a></div>
       </article>
 
       <article class="card" data-cat="data">
