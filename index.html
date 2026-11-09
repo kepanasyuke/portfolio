@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Кристина Панасюк — программист</title>
-<meta name="description" content="Кристина Панасюк — программист. 19 репозиториев, 25 языков: Python, Java, PHP, C#, C++, C, JavaScript, Dart, SQL. Backend-сервисы, конвейеры данных, тесты, учебные материалы.">
+<meta name="description" content="Кристина Панасюк — программист. 20 репозиториев, 25 языков: Python, Java, PHP, C#, C++, C, JavaScript, Dart, SQL. Backend-сервисы, конвейеры данных, тесты, учебные материалы.">
 <meta property="og:title" content="Кристина Панасюк — программист">
-<meta property="og:description" content="19 репозиториев, 25 языков программирования: сервисы, данные, тесты, обучение.">
+<meta property="og:description" content="20 репозиториев, 25 языков программирования: сервисы, данные, тесты, обучение.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="assets/portrait.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c68a52'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23f3eee8' text-anchor='middle'%3E%D0%9A%3C/text%3E%3C/svg%3E">
@@ -186,7 +186,7 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
 
   <div class="hero">
     <div>
-      <div class="kicker">Портфолио · 19 репозиториев · 25 языков</div>
+      <div class="kicker">Портфолио · 20 репозиториев · 25 языков</div>
       <h1>Кристина Панасюк</h1>
       <div class="role">Программист</div>
       <p>Пишу сервисы, конвейеры данных и учебные материалы. Разбираю задачу от «принесли на словах» до работающего кода с тестами и документацией.</p>
@@ -201,7 +201,7 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
   </div>
 
   <div class="stats">
-    <div class="stat"><b>19</b><span>репозиториев на GitHub</span></div>
+    <div class="stat"><b>20</b><span>репозиториев на GitHub</span></div>
     <div class="stat"><b>≈90 000</b><span>строк авторского кода</span></div>
     <div class="stat"><b>25</b><span>языков программирования</span></div>
     <div class="stat"><b>8</b><span>сайтов на GitHub Pages</span></div>
@@ -209,10 +209,10 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
 
   <section id="projects">
     <div class="head"><h2>Проекты</h2><div class="line"></div></div>
-    <p class="lead">Девятнадцать проектов с <a href="https://github.com/kepanasyuke" target="_blank" rel="noopener" style="border-bottom:1px solid var(--accent-soft); color:#8d5a28">github.com/kepanasyuke</a>: сервисы, данные, тесты и учебные курсы. Ссылка на сайт есть там, где включён GitHub Pages.</p>
+    <p class="lead">Двадцать проектов с <a href="https://github.com/kepanasyuke" target="_blank" rel="noopener" style="border-bottom:1px solid var(--accent-soft); color:#8d5a28">github.com/kepanasyuke</a>: сервисы, данные, тесты и учебные курсы. Ссылка на сайт есть там, где включён GitHub Pages.</p>
 
     <div class="filters" id="filters">
-      <button class="chip" aria-pressed="true" data-cat="all">Все 19</button>
+      <button class="chip" aria-pressed="true" data-cat="all">Все 20</button>
       <button class="chip" aria-pressed="false" data-cat="backend">Backend и приложения</button>
       <button class="chip" aria-pressed="false" data-cat="data">Данные</button>
       <button class="chip" aria-pressed="false" data-cat="qa">Тестирование</button>
@@ -252,6 +252,14 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
         <p>Диспетчеризация задач парка ROS2-роботов, устойчивая к сбоям: замолчавший робот освобождает задачу по истечении аренды и она уходит другому. Пять сервисов и транзакционный outbox вместо двойной записи. Плюс веб-консоль флота: вход по ролям, фильтры и история задач, пагинация и сортировка. 321 python-тест, 344 теста консоли, 40 E2E.</p>
         <div class="tag">FastAPI · RabbitMQ · PostgreSQL · transactional outbox · React + Vite · E2E</div>
         <div class="links"><a href="https://github.com/kepanasyuke/robot-dispatch" target="_blank" rel="noopener">Код</a><a href="https://kepanasyuke.github.io/robot-dispatch/dispatch/" target="_blank" rel="noopener">Демо</a><a href="https://kepanasyuke.github.io/robot-dispatch/" target="_blank" rel="noopener">Покрытие</a></div>
+      </article>
+
+      <article class="card" data-cat="backend data">
+        <div class="top"><h3>abs-migration</h3><span class="lang">Python</span></div>
+        <div class="shots"><img src="assets/media/abs-migration/demo.gif" class="wide" loading="lazy" decoding="async" alt=""><img src="assets/media/abs-migration/mapping.png" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/abs-migration/services.png" class="half" loading="lazy" decoding="async" alt=""></div>
+        <p>АРМ системного аналитика для миграции банковских данных из legacy-АБС («Гефест», «ПрограмБанк», «Инверсия», «ВаБанк») в ЦФТ-Банк (IBSO): карта Source-to-Target, профиль качества, сверка остатков, правила → SQL, контроль двойной записи, BPMN cut-over, ассистент по регламентам и готовность волн. Оконный интерфейс на десять экранов, FastAPI за API-шлюзом, роли с журналом аудита и SSE-прогресс загрузки. 2 102 теста, ruff без замечаний.</p>
+        <div class="tag">FastAPI · SQLite · RBAC · SSE · сортировка, пагинация, CSV · 2 102 теста</div>
+        <div class="links"><a href="https://github.com/kepanasyuke/abs-migration" target="_blank" rel="noopener">Код</a></div>
       </article>
 
       <article class="card" data-cat="backend other">

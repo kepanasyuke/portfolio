@@ -68,5 +68,10 @@
     "project.png",
     "crazy.png",
     "crazy3d.png"
+  ],
+  "abs-migration": [
+    "demo.gif",
+    "mapping.png",
+    "services.png"
   ]
 }
