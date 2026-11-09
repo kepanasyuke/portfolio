@@ -201,7 +201,7 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
   </div>
 
   <div class="stats">
-    <div class="stat"><b>21</b><span>репозиториев на GitHub</span></div>
+    <div class="stat"><b>22</b><span>репозитория на GitHub</span></div>
     <div class="stat"><b>≈90 000</b><span>строк авторского кода</span></div>
     <div class="stat"><b>25</b><span>языков программирования</span></div>
     <div class="stat"><b>9</b><span>сайтов на GitHub Pages</span></div>
@@ -209,10 +209,10 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
 
   <section id="projects">
     <div class="head"><h2>Проекты</h2><div class="line"></div></div>
-    <p class="lead">Двадцать один проект с <a href="https://github.com/kepanasyuke" target="_blank" rel="noopener" style="border-bottom:1px solid var(--accent-soft); color:#8d5a28">github.com/kepanasyuke</a>: сервисы, данные, тесты и учебные курсы. Ссылка на сайт есть там, где включён GitHub Pages.</p>
+    <p class="lead">Двадцать два проекта с <a href="https://github.com/kepanasyuke" target="_blank" rel="noopener" style="border-bottom:1px solid var(--accent-soft); color:#8d5a28">github.com/kepanasyuke</a>: сервисы, данные, тесты и учебные курсы. Ссылка на сайт есть там, где включён GitHub Pages.</p>
 
     <div class="filters" id="filters">
-      <button class="chip" aria-pressed="true" data-cat="all">Все 21</button>
+      <button class="chip" aria-pressed="true" data-cat="all">Все 22</button>
       <button class="chip" aria-pressed="false" data-cat="backend">Backend и приложения</button>
       <button class="chip" aria-pressed="false" data-cat="data">Данные</button>
       <button class="chip" aria-pressed="false" data-cat="qa">Тестирование</button>
@@ -268,6 +268,14 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
         <p>Отчёт на СКД для 1С:Предприятие 8.3 — ведомость по товарам на складах: начальный остаток, приход, расход, конечный остаток и контрольная колонка, которая обязана быть нулевой. Компоновка собирается вручную, параметры периода подставляются сами, минусовой остаток подсвечивается условным оформлением. Код оформлен под правила команды: один выход из функции, тело в одну-две инструкции, без Прервать, Продолжить и Пока — и отдельный PowerShell-чекер, который это проверяет. Интерфейс воспроизведён под 8.3.10 «Такси», данные в кадрах вымышленные.</p>
         <div class="tag">1С 8.3 · СКД · ОстаткиИОбороты · PowerShell-чекер стиля</div>
         <div class="links"><a href="https://github.com/kepanasyuke/1c-report-demo" target="_blank" rel="noopener">Код</a><a href="https://kepanasyuke.github.io/1c-report-demo/" target="_blank" rel="noopener">Сайт</a></div>
+      </article>
+
+      <article class="card" data-cat="backend">
+        <div class="top"><h3>onec-portfolio</h3><span class="lang">1С</span></div>
+        <div class="shots"><img src="assets/media/onec-portfolio/overview.png" class="wide" loading="lazy" decoding="async" alt=""><img src="assets/media/onec-portfolio/ut.png" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/onec-portfolio/bp.png" class="half" loading="lazy" decoding="async" alt=""></div>
+        <p>Портфолио программиста 1С: восемь рабочих разделов под требования вакансии — заказы и резервы в УТ, оборотно-сальдовая ведомость с поиском красного сальдо, премии по KPI с прогрессивным НДФЛ, SLA маршрутов в ДО, качество правил обмена в КД, журнал SOAP-обменов, реестр расширений с риском обновления и профиль запросов на MS SQL с рекомендациями по индексам. Интерфейс повторяет клиент 1С 8.3 «Такси»: разделы, панель навигации, таблицы-сетка, командные панели с поиском и выгрузкой в CSV, уведомления о действиях. 362 теста, ESLint с собственными правилами: один выход из функции, одна-две инструкции, без циклов и break.</p>
+        <div class="tag">Express · MS SQL · React 18 · Vite · 362 теста · интерфейс в стиле 1С</div>
+        <div class="links"><a href="https://github.com/kepanasyuke/onec-portfolio" target="_blank" rel="noopener">Код</a></div>
       </article>
 
       <article class="card" data-cat="backend other">
