@@ -1,4 +1,9 @@
 {
+  "biz-analytics-portfolio": [
+    "sales-pulse.png",
+    "churn-radar.png",
+    "pricing-lab.png"
+  ],
   "sql": [
     "hero.png",
     "projects.png",
