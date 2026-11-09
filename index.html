@@ -209,10 +209,10 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
 
   <section id="projects">
     <div class="head"><h2>Проекты</h2><div class="line"></div></div>
-    <p class="lead">Двадцать три проекта с <a href="https://github.com/kepanasyuke" target="_blank" rel="noopener" style="border-bottom:1px solid var(--accent-soft); color:#8d5a28">github.com/kepanasyuke</a>: сервисы, данные, тесты и учебные курсы. Ссылка на сайт есть там, где включён GitHub Pages.</p>
+    <p class="lead">Двадцать четыре проекта с <a href="https://github.com/kepanasyuke" target="_blank" rel="noopener" style="border-bottom:1px solid var(--accent-soft); color:#8d5a28">github.com/kepanasyuke</a>: сервисы, данные, тесты и учебные курсы. Ссылка на сайт есть там, где включён GitHub Pages.</p>
 
     <div class="filters" id="filters">
-      <button class="chip" aria-pressed="true" data-cat="all">Все 23</button>
+      <button class="chip" aria-pressed="true" data-cat="all">Все 24</button>
       <button class="chip" aria-pressed="false" data-cat="backend">Backend и приложения</button>
       <button class="chip" aria-pressed="false" data-cat="data">Данные</button>
       <button class="chip" aria-pressed="false" data-cat="qa">Тестирование</button>
@@ -293,6 +293,14 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
         <p>Экспериментальный LLM-роутер и учебная нейросетевая модель Mirro: мета-граф, «квантовая когерентность», иммунный страж, рефракция, PINN. Собран в соавторстве с двумя моделями.</p>
         <div class="tag">Python · локальные модели · исследовательский проект</div>
         <div class="links"><a href="https://github.com/kepanasyuke/Mirro-" target="_blank" rel="noopener">Код</a></div>
+      </article>
+
+      <article class="card" data-cat="data">
+        <div class="top"><h3>lada-cifra-content-analytics</h3><span class="lang">Python</span></div>
+        <div class="shots"><img src="assets/media/lada-cifra-content-analytics/catalog-1440.png" class="wide" loading="lazy" decoding="async" alt=""><img src="assets/media/lada-cifra-content-analytics/qa-1440.png" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/lada-cifra-content-analytics/trends-1440.png" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/lada-cifra-content-analytics/matrix-1440.png" class="half" loading="lazy" decoding="async" alt=""><img src="assets/media/lada-cifra-content-analytics/forecast-1440.png" class="half" loading="lazy" decoding="async" alt=""></div>
+        <p>Пять сервисов контент-аналитики автобизнеса в одном FastAPI-приложении под вакансию Junior Content Analyst: загрузка каталога из внешнего API с пагинацией и ретраями, контроль полноты карточек с пороговыми алертами и историей прогонов, тренд-радар с корреляциями Пирсона на stdlib, матрица ABC/XYZ с готовым решением по каждой ячейке и прогноз спроса Хольта-Уинтерса с проверкой MAPE на ретроспективе. Данные — 8 128 реальных объявлений, интерфейс в стиле LADA Цифра, графики на собственном SVG без библиотек, скриншоты десктопа и телефона снимает Playwright. 361 тест, ruff и собственный чекер стиля; продакшен-обвязка: миграции схемы, Docker с non-root и healthcheck, /health и /ready, JSON-логи запросов, CI собирает образ и дымовым запросом проверяет готовность.</p>
+        <div class="tag">FastAPI · SQLite · миграции · Docker · GitHub Actions · SVG-графики · 361 тест</div>
+        <div class="links"><a href="https://github.com/kepanasyuke/lada-cifra-content-analytics" target="_blank" rel="noopener">Код</a><a href="https://github.com/kepanasyuke/lada-cifra-content-analytics/actions" target="_blank" rel="noopener">CI</a></div>
       </article>
 
       <article class="card" data-cat="data">
