@@ -78,5 +78,10 @@
     "demo.gif",
     "mapping.png",
     "services.png"
+  ],
+  "moex-portfolio": [
+    "overview.png",
+    "trading.png",
+    "profile.png"
   ]
 }
