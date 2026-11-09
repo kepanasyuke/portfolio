@@ -83,5 +83,12 @@
     "overview.png",
     "trading.png",
     "profile.png"
+  ],
+  "lada-cifra-content-analytics": [
+    "catalog-1440.png",
+    "qa-1440.png",
+    "trends-1440.png",
+    "matrix-1440.png",
+    "forecast-1440.png"
   ]
 }
