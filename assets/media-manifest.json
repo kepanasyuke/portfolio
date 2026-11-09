@@ -1,99 +1,104 @@
-{
-  "biz-analytics-portfolio": [
-    "sales-pulse.png",
-    "churn-radar.png",
-    "pricing-lab.png"
-  ],
-  "sql": [
-    "hero.png",
-    "projects.png",
-    "mech.png",
-    "app-ui.png"
-  ],
-  "eight-projects": [
-    "hero.gif",
-    "p1.gif",
-    "p6.gif",
-    "game.png",
-    "console-tasks.png"
-  ],
-  "fieldpulse": [
-    "demo.gif",
-    "frame-1.png",
-    "tablet.png"
-  ],
-  "cio-loyalty": [
-    "demo.svg"
-  ],
-  "digital-habits-qa": [
-    "pipeline.gif"
-  ],
-  "terminal-analytics": [
-    "pipeline.svg",
-    "reconciliation.svg",
-    "fleet-sla.svg",
-    "anomaly.svg"
-  ],
-  "robot-dispatch": [
-    "dispatch-flow.gif",
-    "gameplay.gif",
-    "architecture.svg"
-  ],
-  "bioinformatics": [
-    "dna-game.gif",
-    "dna-play.png",
-    "dna-result.png",
-    "coverage.png"
-  ],
-  "de-portfolio": [
-    "anim-hero.svg",
-    "anim-batch-dwh.svg",
-    "anim-streaming.svg",
-    "anim-dq.svg",
-    "anim-clickhouse.svg",
-    "anim-game.svg"
-  ],
-  "structured-programming-labs": [
-    "demo-opz.gif",
-    "demo-sort.gif",
-    "demo-sort-php.gif"
-  ],
-  "fumiklea": [
-    "cosmos.png",
-    "waves-page.png",
-    "bug.gif",
-    "waves-1.png",
-    "tuhs-1.png",
-    "tic-tac-toe.png",
-    "christina-18.gif",
-    "christina-19.gif",
-    "banking.webm"
-  ],
-  "projects-for-kids": [
-    "project.png",
-    "crazy.png",
-    "crazy3d.png"
-  ],
-  "1c-report": [
-    "otchet.png",
-    "nastroyki.png",
-    "minus.png"
-  ],
-  "abs-migration": [
-    "demo.gif",
-    "mapping.png",
-    "services.png"
-  ],
-  "moex-portfolio": [
-    "overview.png",
-    "trading.png",
-    "profile.png"
-  ],
-  "lada-cifra-content-analytics": [
-    "catalog-1440.png",
-    "qa-1440.png",
-    "trends-1440.png",
-    "matrix-1440.png",
-    "forecast-1440.png"
-  ]
+﻿{
+    "biz-analytics-portfolio":  [
+                                    "sales-pulse.png",
+                                    "churn-radar.png",
+                                    "pricing-lab.png"
+                                ],
+    "sql":  [
+                "hero.png",
+                "projects.png",
+                "mech.png",
+                "app-ui.png"
+            ],
+    "eight-projects":  [
+                           "hero.gif",
+                           "p1.gif",
+                           "p6.gif",
+                           "game.png",
+                           "console-tasks.png"
+                       ],
+    "fieldpulse":  [
+                       "demo.gif",
+                       "frame-1.png",
+                       "tablet.png"
+                   ],
+    "cio-loyalty":  [
+                        "demo.svg"
+                    ],
+    "digital-habits-qa":  [
+                              "pipeline.gif"
+                          ],
+    "terminal-analytics":  [
+                               "pipeline.svg",
+                               "reconciliation.svg",
+                               "fleet-sla.svg",
+                               "anomaly.svg"
+                           ],
+    "robot-dispatch":  [
+                           "dispatch-flow.gif",
+                           "gameplay.gif",
+                           "architecture.svg"
+                       ],
+    "bioinformatics":  [
+                           "dna-game.gif",
+                           "dna-play.png",
+                           "dna-result.png",
+                           "coverage.png"
+                       ],
+    "de-portfolio":  [
+                         "anim-hero.svg",
+                         "anim-batch-dwh.svg",
+                         "anim-streaming.svg",
+                         "anim-dq.svg",
+                         "anim-clickhouse.svg",
+                         "anim-game.svg"
+                     ],
+    "structured-programming-labs":  [
+                                        "demo-opz.gif",
+                                        "demo-sort.gif",
+                                        "demo-sort-php.gif"
+                                    ],
+    "fumiklea":  [
+                     "cosmos.png",
+                     "waves-page.png",
+                     "bug.gif",
+                     "waves-1.png",
+                     "tuhs-1.png",
+                     "tic-tac-toe.png",
+                     "christina-18.gif",
+                     "christina-19.gif",
+                     "banking.webm"
+                 ],
+    "projects-for-kids":  [
+                              "project.png",
+                              "crazy.png",
+                              "crazy3d.png"
+                          ],
+    "1c-report":  [
+                      "otchet.png",
+                      "nastroyki.png",
+                      "minus.png"
+                  ],
+    "abs-migration":  [
+                          "demo.gif",
+                          "mapping.png",
+                          "services.png"
+                      ],
+    "moex-portfolio":  [
+                           "overview.png",
+                           "trading.png",
+                           "profile.png"
+                       ],
+    "lada-cifra-content-analytics":  [
+                                         "catalog-1440.png",
+                                         "qa-1440.png",
+                                         "trends-1440.png",
+                                         "matrix-1440.png",
+                                         "forecast-1440.png"
+                                     ],
+    "f6-portfolio":  [
+                         "data-portal.png",
+                         "feed-harvester.png",
+                         "console.png"
+                     ]
 }
