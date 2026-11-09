@@ -209,10 +209,10 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
 
   <section id="projects">
     <div class="head"><h2>Проекты</h2><div class="line"></div></div>
-    <p class="lead">Двадцать четыре проекта с <a href="https://github.com/kepanasyuke" target="_blank" rel="noopener" style="border-bottom:1px solid var(--accent-soft); color:#8d5a28">github.com/kepanasyuke</a>: сервисы, данные, тесты и учебные курсы. Ссылка на сайт есть там, где включён GitHub Pages.</p>
+    <p class="lead">Двадцать пять проектов с <a href="https://github.com/kepanasyuke" target="_blank" rel="noopener" style="border-bottom:1px solid var(--accent-soft); color:#8d5a28">github.com/kepanasyuke</a>: сервисы, данные, тесты и учебные курсы. Ссылка на сайт есть там, где включён GitHub Pages.</p>
 
     <div class="filters" id="filters">
-      <button class="chip" aria-pressed="true" data-cat="all">Все 24</button>
+      <button class="chip" aria-pressed="true" data-cat="all">Все 25</button>
       <button class="chip" aria-pressed="false" data-cat="backend">Backend и приложения</button>
       <button class="chip" aria-pressed="false" data-cat="data">Данные</button>
       <button class="chip" aria-pressed="false" data-cat="qa">Тестирование</button>
@@ -221,6 +221,14 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
     </div>
 
     <div class="grid" id="grid">
+
+      <article class="card" data-cat="backend data">
+        <div class="top"><h3>biz-analytics-portfolio</h3><span class="lang">Python</span></div>
+        <div class="shots"><img src="assets/media/biz-analytics-portfolio/sales-pulse.png" class="wide" loading="lazy" decoding="async" alt="Дашборд продаж"><img src="assets/media/biz-analytics-portfolio/churn-radar.png" class="half" loading="lazy" decoding="async" alt="Когорты оттока"><img src="assets/media/biz-analytics-portfolio/pricing-lab.png" class="half" loading="lazy" decoding="async" alt="Эластичность спроса"></div>
+        <p>Шесть аналитических дашбордов, каждый — самостоятельное приложение с бэкендом и фронтендом: продажи с планом и воронкой, склад с днями запаса, P&amp;L и денежный поток, воронка лидов со SLA, отток с когортами M0–M5 и цены с лог-лог регрессией эластичности. Данные в SQLite, метрики считаются SQL-запросами и попадают в заголовок, а не вписаны руками. Правила кода проверяются, а не декларируются: один return последним оператором, 1–2 оператора в функции, без while, break и continue — собственный плагин ESLint, Ruff и AST-чекер. Интерфейс в стиле бренд-гайда Циан: синий первый экран, нумерованные показатели, графики на чистом SVG без chart-библиотек.</p>
+        <div class="tag">FastAPI · SQLite · SQL · React 19 · TypeScript · Vite · ESLint · Ruff</div>
+        <div class="links"><a href="https://github.com/kepanasyuke/biz-analytics-portfolio" target="_blank" rel="noopener">Код</a></div>
+      </article>
 
       <article class="card" data-cat="backend">
         <div class="top"><h3>moex-vibe-portfolio</h3><span class="lang">TypeScript</span></div>
