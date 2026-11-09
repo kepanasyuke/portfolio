@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru" class="no-js">
 <head>
 <meta charset="utf-8">
@@ -209,10 +209,10 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
 
   <section id="projects">
     <div class="head"><h2>Проекты</h2><div class="line"></div></div>
-    <p class="lead">Двадцать пять проектов с <a href="https://github.com/kepanasyuke" target="_blank" rel="noopener" style="border-bottom:1px solid var(--accent-soft); color:#8d5a28">github.com/kepanasyuke</a>: сервисы, данные, тесты и учебные курсы. Ссылка на сайт есть там, где включён GitHub Pages.</p>
+    <p class="lead">Двадцать шесть проектов с <a href="https://github.com/kepanasyuke" target="_blank" rel="noopener" style="border-bottom:1px solid var(--accent-soft); color:#8d5a28">github.com/kepanasyuke</a>: сервисы, данные, тесты и учебные курсы. Ссылка на сайт есть там, где включён GitHub Pages.</p>
 
     <div class="filters" id="filters">
-      <button class="chip" aria-pressed="true" data-cat="all">Все 25</button>
+      <button class="chip" aria-pressed="true" data-cat="all">Все 26</button>
       <button class="chip" aria-pressed="false" data-cat="backend">Backend и приложения</button>
       <button class="chip" aria-pressed="false" data-cat="data">Данные</button>
       <button class="chip" aria-pressed="false" data-cat="qa">Тестирование</button>
@@ -221,6 +221,14 @@ footer{padding:34px 0 46px; color:var(--muted); font-size:14px; display:flex; ju
     </div>
 
     <div class="grid" id="grid">
+
+      <article class="card" data-cat="backend data">
+        <div class="top"><h3>f6-portfolio</h3><span class="lang">Python</span></div>
+        <div class="shots"><img src="assets/media/f6-portfolio/data-portal.png" class="wide" loading="lazy" decoding="async" alt="Портал данных стенда"><img src="assets/media/f6-portfolio/feed-harvester.png" class="half" loading="lazy" decoding="async" alt="Сервис сбора фидов"><img src="assets/media/f6-portfolio/console.png" class="half" loading="lazy" decoding="async" alt="Консоль стенда"></div>
+        <p>Стенд Threat Intelligence из девяти приложений: сбор фидов, правила хантига, нормализация журналов до ECS, граф инфраструктуры, бренд-защита по доменам, отчёты для портала и эксплуатация сервисов — плюс портал данных и консоль, которые показывают содержимое всех баз в одном окне. У каждого сервиса бэкенд на FastAPI со своим набором тестов и фронтенд без сборки, поэтому весь стенд поднимается одной командой. Логика проверяется тестами, а правила кода — линтером: один return последним оператором, 1–2 оператора в функции, без while, break и continue; AST-чекер, Ruff и Pylint настроены как ворота перед коммитом. Витрина со скриншотами и GIF снята Playwright из того же репозитория.</p>
+        <div class="tag">FastAPI · SQLite · PostgreSQL · Pydantic · Playwright · Ruff</div>
+        <div class="links"><a href="https://github.com/kepanasyuke/f6-portfolio" target="_blank" rel="noopener">Код</a><a href="https://kepanasyuke.github.io/f6-portfolio/site/" target="_blank" rel="noopener">Сайт</a></div>
+      </article>
 
       <article class="card" data-cat="backend data">
         <div class="top"><h3>biz-analytics-portfolio</h3><span class="lang">Python</span></div>
